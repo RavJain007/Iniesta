@@ -1,0 +1,68 @@
+*{
+  margin: 0;
+}
+
+.app {
+  background-color: #fafafa;
+}
+
+.app_header {
+  object-fit: contain;
+  padding:14px;
+  border: 0.5px solid rgb(228, 226, 226);
+  object-fit: contain;
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  position: sticky;
+  top:0px;
+  z-index: 1;
+}
+
+.app_headerImage {
+  object-fit: contain;
+  width: 65px;
+  height: 60px;
+}
+
+.app_ModalEle {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Times New Roman', Times, serif;
+}
+.app_ModalImage {
+  width: 65px; 
+  height: 60px;
+  margin-left: auto;
+  margin-right:auto;
+}
+
+#app_profile {
+}
+
+#app_profile h4 {
+}
+
+#logout {
+  margin-top:10px;
+  margin-left:10px;
+  border:1px solid rgb(228, 226, 226);
+}
+
+.app_loginContainer {
+  float: right;
+  margin-right:10px ;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.app_post {
+  margin-bottom:10px;
+  padding:20px;
+  display:flex;
+  background-color: #fafafa;
+  justify-content: center;
+}
+
+.app_post_left {
+  padding-right:10px;
+}

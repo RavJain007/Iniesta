@@ -1,0 +1,33 @@
+.imageupload {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: white;
+    border-top: 1px solid lightgray;
+}
+
+.imageupload_prog {
+    width: 100%;
+}
+
+.upload_button {
+    color:#6C6C6C;
+    padding:5px;
+    width:10%;
+    border:1px solid lightgray;
+}
+
+.upload {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.upload_caption {
+    width:80%
+}
